@@ -1,0 +1,24 @@
+# ignore everything
+*
+
+# allow git files
+!.gitignore
+
+# whitelist configs you want tracked
+!hypr/
+!hypr/**
+
+!waybar/
+!waybar/**
+
+!nvim/
+!nvim/**
+
+!kitty/
+!kitty/**
+
+!quickshell/
+!quickshell/**
+
+!rofi/
+!rofi/**

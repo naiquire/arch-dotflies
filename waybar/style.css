@@ -1,0 +1,194 @@
+/* Any color property denoted by @[color] is imported from PyWal16 */
+@import "/home/naiquire/.cache/wal/colors-waybar.css";
+/* rgba(255,255,255,0.07) is used to lighten the module against the background */
+
+* {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP", "Noto Sans Mono CJK JP";
+    color: @cursor;
+}
+
+window#waybar.waybar {
+    border: none;
+    background-color: transparent;
+}
+.modules-left {
+    background-color: @background;
+    border-radius: 12px;
+    padding-right: 12px;
+    opacity: 0.95;
+}
+.modules-center {
+    background-color: @background;
+    border-radius: 12px;
+    padding: 0px 0px;
+    opacity: 0.95;
+}
+.modules-right {
+    background-color: @background;
+    border-radius: 12px;
+    padding-left: 12px;
+    opacity: 0.95;
+}
+
+menu {
+    border-radius: 12px;
+    background: @background;
+}
+menuitem {
+    border-radius: 12px;
+}
+
+
+/* modules-left */
+
+#custom-menu {
+    border-radius: 12px;
+    min-width: 36px;
+    font-size: 18px;
+    color: #1793d1; /* arch logo */
+}
+#custom-menu:hover {
+    color: white;
+    background-color: rgba(255,255,255,0.07);
+}
+
+#custom-apps {
+    margin-left: 12px;
+    margin-right: 0px;
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 6px 0px 12px;
+    border-radius: 12px 0px 0px 12px;
+    color: @color10;
+}
+#custom-apps:hover {
+    color: white;
+}
+
+#custom-terminal {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 6px;
+    color: @color11;
+}
+#custom-terminal:hover {
+    color: white;
+}
+
+#custom-code {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 12px 0px 6px;
+    border-radius: 0px 12px 12px 0px;
+    color: @color12;
+}
+#custom-code:hover {
+    color: white;
+}
+
+#workspaces {
+    margin-left: 12px;
+}
+#workspaces button {
+    padding: 0px 2px;
+}
+#workspaces button:hover {
+    color: transparent;
+}
+
+
+/* modules-center */
+
+
+#custom-discord {
+    margin-left: 12px;
+    padding: 0px 12px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 12px;
+}
+#custom-discord_icon {
+    padding: 0px 0px 0px 12px;
+    color: #5865F2;
+    font-size: 16px;
+}
+
+#clock {
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 12px;
+    min-width: 100px;
+    border-radius: 12px;
+}
+#custom-recording {
+    color: @color13;
+    padding: 0px 12px;
+}
+
+#custom-media_icon {
+    padding: 0px 12px 0px 0px;
+    color: #1DB954;
+    font-size: 16px;
+}
+#custom-media_prev {
+    padding: 0px 6px;
+    font-size: 20px;
+    color: @color11;
+}
+#custom-media_prev:hover {
+    color: white;
+}
+#custom-media_pause {
+    padding: 0px 6px;
+    font-size: 20px;
+    color: @color13;
+}
+#custom-media_pause:hover {
+    color: white;
+}
+#custom-media_next {
+    padding: 0px 6px;
+    font-size: 20px;
+    color: @color11;
+}
+#custom-media_next:hover {
+    color: white;
+}
+#custom-media {
+    margin: 0px 12px 0px 6px;
+    padding: 0px 12px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 12px;
+}
+
+
+/* modules-right */
+
+#network {
+    margin-right: 12px;
+    border-radius: 12px;
+    min-width: 200px;
+}
+
+#pulseaudio {
+    margin-right: 12px;
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 12px;
+    border-radius: 12px;
+    color: @color13;
+}
+
+#custom-power {
+    margin-right: 12px;
+    margin-left: 6px;
+    color: @color9;
+}
+#custom-power:hover {
+    color: white;
+}
+
+
+
+
+
