@@ -33,11 +33,16 @@ window#waybar.waybar {
 }
 
 menu {
+    color: transparent;
     border-radius: 12px;
-    background: @background;
 }
 menuitem {
     border-radius: 12px;
+    padding: 6px 0px;
+    margin: 2px 0px;
+}
+menuitem:hover {
+    background-color: rgba(255,255,255,0.07);
 }
 
 
@@ -94,14 +99,11 @@ menuitem {
 }
 #workspaces button {
     padding: 0px 2px;
+    border: 0px;
 }
 #workspaces button:hover {
     color: transparent;
 }
-
-
-/* modules-center */
-
 
 #custom-discord {
     margin-left: 12px;
@@ -115,6 +117,9 @@ menuitem {
     font-size: 16px;
 }
 
+
+/* modules-center */
+
 #clock {
     background-color: rgba(255,255,255,0.07);
     padding: 0px 12px;
@@ -122,9 +127,12 @@ menuitem {
     border-radius: 12px;
 }
 #custom-recording {
-    color: @color13;
     padding: 0px 12px;
+    color: @color13;
 }
+
+
+/* modules-right */
 
 #custom-media_icon {
     padding: 0px 12px 0px 0px;
@@ -161,9 +169,6 @@ menuitem {
     background-color: rgba(255,255,255,0.07);
     border-radius: 12px;
 }
-
-
-/* modules-right */
 
 #network {
     margin-right: 12px;

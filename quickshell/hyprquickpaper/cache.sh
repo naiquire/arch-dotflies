@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-CONFIG="/home/naiquire/.config/Quickshell/hyprquickpaper/config.json"
+CONFIG="/home/naiquire/.config/quickshell/hyprquickpaper/config.json"
 
 
 wallpaper_path=$(jq -r '.wallpaper_path' "$CONFIG")
