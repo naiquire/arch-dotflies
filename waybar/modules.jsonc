@@ -7,13 +7,13 @@
         "menu": "on-click",
 
         // configuration for the menu is in menu.xml, including the available actions
-        "menu-file": "/home/naiquire/.config/waybar/menus/menu.xml",
+        "menu-file": "$HOME/.config/waybar/menus/menu.xml",
         // xml retuns one of the following actions, which is mapped to a shell command
         "menu-actions": {
-            "documents": "$fileManager /home/naiquire/documents",
-            "downloads": "$fileManager /home/naiquire/downloads",
-            "projects": "$fileManager /home/naiquire/projects",
-            "config": "$fileManager /home/naiquire/.config",
+            "documents": "$fileManager $HOME/Documents",
+            "downloads": "$fileManager $HOME/Downloads",
+            "projects": "$fileManager $HOME/projects",
+            "config": "$fileManager $HOME/.config",
 
             "windows": "$fileManager /mnt/windows/Users/naiquire",
             "win-documents": "$fileManager /mnt/windows/Users/naiquire/Documents/General",
